@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy House Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>Wendy Houses & log cabins.</h1>
+        <span class="toggle-menu">&#9776;</span> <!-- Toggle icon -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html#slideshow">Home</a></li>
+                <li><a href="aboutus.html#aboutus">About Us</a></li>
+                <li><a href="gallery.html#gallery">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleMenu = document.querySelector('.toggle-menu');
+            const navLinks = document.querySelector('.nav-links');
+
+            toggleMenu.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+        });
+    </script>
+
+    <!-- Swiper Slideshow Section -->
+    <section id="slideshow" class="slideshow">
+        <h1 style="color: #fff; text-align: center; font-size: 35px;"><strong>Welcome to Wendy Houses and log cabins.</strong></h1>
+        <br>
+        <h3 style="color: #fff; text-align: center;font-size: 20px;">Built to Last Across South Africa! At Wendy Houses and Log Cabins, we bring your vision to life with durable, stylish, and budget-friendly structures delivered nationwide. </h3>
+        <br>
+        <br>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Picture10.jpeg" alt="Wendy House Image 1"></div>
+                <div class="swiper-slide"><img src="Picture11.jpg" alt="Wendy House Image 2"></div>
+                <div class="swiper-slide"><img src="Picture1.jpeg" alt="Wendy House Image 3"></div>
+                <div class="swiper-slide"><img src="Picture13.jpg" alt="Wendy House Image 4"></div>
+                <div class="swiper-slide"><img src="Picture14.jpg" alt="Wendy House Image 5"></div>
+                <div class="swiper-slide"><img src="Picture15.jpg" alt="Wendy House Image 6"></div>  
+                <div class="swiper-slide"><img src="Picture16.jpg" alt="Wendy House Image 7"></div>
+                <div class="swiper-slide"><img src="Picture17.jpg" alt="Wendy House Image 8"></div>
+                <div class="swiper-slide"><img src="Picture19.jpg" alt="Wendy House Image 9"></div>
+                <div class="swiper-slide"><img src="Picture20.jpg" alt="Wendy House Image 10"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="aboutus" class="hero">
+        <div class="hero-content">
+            <h3>About Us.</h3>
+            <br>
+            <br>
+            <p>We're a proudly South African business dedicated to providing high-quality wendy houses and log cabins at affordable prices.<br> Our mission is to make owning a wendy house or log cabin easy, affordable, and accessible for everyone across South Africa.<br> Whether you're looking for extra storage space, a backyard office, a cozy playhouse, or even a larger cabin for family or guests,<br> we have a range of options to meet your needs.</p>
+            <br>
+            <br>
+            <h3>Why Choose Us?</h3>
+            <p>At Wendy Houses and Log Cabins, we believe that quality shouldn't come at a high cost.<br> That’s why we’re committed to offering our customers the best materials and craftsmanship at prices that fit your budget. <br>Our wendy houses and log cabins are built to last, crafted with strong, durable wood, and designed to withstand South African weather.<br> We pay close attention to every detail, from the solid construction to the fine finishes,<br> ensuring you get a product that is not only functional but also visually appealing.</p>
+            <br>
+            <br>
+            <h3>Our Products</h3>
+            <p>We offer a wide variety of wendy houses and log cabins to suit different purposes.<br> Whether you need a small shed for garden tools, a stylish cabin for extra living space, or a custom-built structure, we have something for you.<br> Our products come in various sizes and designs, so you can choose what best fits your needs and style.<br> If you're not sure what would work best, our friendly team is always here to help you make the right choice.</p>
+            <br>
+            <br>
+            <h3>Affordable Rates</h3>
+            <p>One of our top priorities is to keep our prices fair and affordable.<br> We understand that building a new structure can be a big investment, and we want to make it accessible to as many people as possible.<br> Our team works hard to source quality materials at competitive prices, and we pass those savings on to you.<br> With Wendy Houses and Log Cabins, you can be sure you're getting great value without compromising on quality.</p>
+            <br>
+            <br>
+            <h3>Built to last</h3>
+            <p>Our wendy houses and log cabins are crafted to withstand the test of time.<br> We use strong, durable materials that provide solid protection against the elements, so you can enjoy your structure for years to come.<br> Each product is built with care and precision, ensuring it meets our high standards for durability and quality.</p>
+            <br>
+            <br>
+            <h3>Customer Satisfaction</h3>
+            <p>At Wendy Houses and Log Cabins, we put our customers first.<br> Your satisfaction is our priority, and we work hard to ensure that every interaction with us is a positive experience.<br> From your first inquiry to the final delivery, our team is here to provide support, answer any questions,<br> and make sure you’re fully satisfied with your purchase.</p>
+            <br>
+            <br>
+            
+        </div>
+    </section>
+
+    <section id="gallery" style="background-image: url('background4.jpg'); background-size: cover; background-position: center; padding: 50px 0;">
+        <div class="gallery-container">
+          <h2>Gallery</h2>
+          <div class="card-grid">
+
+            <!-- Example Card (Repeat this block for each card) -->
+            <div class="card">
+              <img src="Picture1.jpeg" alt="Wendy House Image">
+              <h3>R5000 - Small Wendy House</h3>
+              <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+            </div>
+
+            <div class="card">
+                <img src="Picture10.jpeg" alt="Wendy House Image">
+                <h3>R5000 - Small Wendy House</h3>
+                <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+              </div>
+
+              <div class="card">
+                <img src="Picture11.jpg" alt="Wendy House Image">
+                <h3>R5000 - Small Wendy House</h3>
+                <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+              </div>
+  
+              <div class="card">
+                  <img src="Picture12.jpg" alt="Wendy House Image">
+                  <h3>R5000 - Small Wendy House</h3>
+                  <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                </div>
+
+                <div class="card">
+                    <img src="Picture13.jpg" alt="Wendy House Image">
+                    <h3>R5000 - Small Wendy House</h3>
+                    <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                  </div>
+
+
+                  <div class="card">
+                    <img src="Picture20.jpg" alt="Wendy House Image">
+                    <h3>R5000 - Small Wendy House</h3>
+                    <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                  </div>
+      
+                  <div class="card">
+                      <img src="Picture15.jpg" alt="Wendy House Image">
+                      <h3>R5000 - Small Wendy House</h3>
+                      <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                    </div>
+      
+                    <div class="card">
+                      <img src="Picture16.jpg" alt="Wendy House Image">
+                      <h3>R5000 - Small Wendy House</h3>
+                      <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                    </div>
+        
+                    <div class="card">
+                        <img src="Picture17.jpg" alt="Wendy House Image">
+                        <h3>R5000 - Small Wendy House</h3>
+                        <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                      </div>
+      
+                      <div class="card">
+                          <img src="Picture19.jpg" alt="Wendy House Image">
+                          <h3>R5000 - Small Wendy House</h3>
+                          <p>Perfect for storage or as a garden shed, this compact Wendy House is ideal for small spaces.</p>
+                        </div>
+
+
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <p>2025 &copy; Wendy Houses and log cabins. </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
